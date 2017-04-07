@@ -1,0 +1,268 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>David's' Portfolio</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+      <!--Nav start-->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <ul class="nav navbar-nav">
+            <li><a href="https://dabisrat.github.io/">My Blog</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#Resume">Resume</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!--Nav end-->
+
+      <!--Home start-->
+      <section id="Home"></section>
+        <div class="row">
+          <div class="home-content col-md-12">
+            <h1>David Bisrat</h1>
+            <h3>Web Developer/Engineer</h3>
+              <!--Social media container-->
+            <div class="social-media-container">  
+              <ul>
+                <li><a href="https://www.linkedin.com/in/david-bisrat/" target="_blank" rel="external"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+                <li><a href="https://github.com/dabisrat" target="_blank" rel="external"><i class="fa fa-github fa-2x"></i></a></li>
+                <li><a href="https://www.twitch.tv/dabisrat" target="_blank" rel="external"><i class="fa fa-twitch fa-2x"></i></a></li>
+              </ul>
+            </div>   <!-- end Social media container-->
+          </div> 
+        </div>
+      <!--Home end-->
+      <hr>
+
+      <!--About start-->
+      <section id="About"></section>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 profile-image">
+              <img src="https://avatars2.githubusercontent.com/u/20425875?v=3&s=460" alt="My picture">
+            </div>
+            <div class="col-md-6 profile-text">
+              <h1>About Me</h1>
+              <p> Hello and Welcome! My name is David Bisrat and I'm a software engineer located in Atlanta, GA.
+              </p>
+              <p>  I'm a lover of all things science, technology and gaming. Web technologies are where I spend the majority of my time right now. Like most people, I spend a ridiculous amount of time on the internet, so understanding web development and the direction it's headed in is a personal mission of mine.
+              </p>
+              <p> Guided by the principles of TDD and agile development, my goal is to build applications in a streamlined and iterative fashion while trying to minimize debt. Technologies I currently enjoy using include React-Redux, Bable, Webpack, Bootstrap, and Node/Express.
+              </p>
+              <a href="#Contact" class="btn btn-group btn-group-justified">
+                Contact
+              </a>
+            </div>
+          </div>
+        </div>
+      <!--About end-->
+      <hr id="Portfolio">
+
+      <!--Portfolio Start-->
+      <section>
+      <div class="container-fluid">
+        <h1>Portfolio</h1>
+        <div class="row">
+          <div class="col-md-6 profile-image">
+            <img class="project-1" src="weplay.png" alt="project image">
+          </div>
+          <div class="col-md-6 profile-text">
+              <h3> <strong> We Play Perilous </strong>
+                <a href="https://github.com/Hrr-19-crushers/builders-game" target="_blank" class="btn btn-default">Repo link</a>
+                <a href="https://builder-game.herokuapp.com/" target="_blank" class="btn btn-default">Website link</a>
+              </h3>
+              <p>We Play Perilous was inspired by the success of Twitch plays Pokemon and Hunter Loftis' talk entitled "We will all be game developers" where he argues that web developers can apply the lessons pioneered by gaming in the areas of networking, state management, and physics-based animations to create immersive online experiences.</p>
+              <h4>Contributions:</h4>
+              <ul>
+                <li>
+                  Established real-time chat functionality using React components and Socket.io allowing the server to update client game state after a user makes a change.
+                </li>
+                <li>Simplified user authentication using Auth0 and JWT to decrease development time</li>
+                <li>Implemented custom chat features for logged in users to incentivize user subscription</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      <!--project2-->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 profile-image">
+            <img src="https://camo.githubusercontent.com/33b163e7e55a799e79afd9bad96146e21a8605a4/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f336f7a387878775253596f5644334d68324d2f67697068792e676966" alt="project image">
+          </div>
+          <div class="col-md-6 profile-text">
+              <h3> <strong>OnTheWay</strong>
+                <a href="" target="_blank" class="btn btn-default">Repo link</a>
+              </h3>
+              <p>A location based help request application</p>
+              <h4>Contributions:</h4>
+              <ul>
+                <li>
+                  Implemented group chat functionality using the Send Bird SDK allowing users to communicate
+                  about an issue
+                </li>
+                <li>Utilized Flexbox and React-Native components to build chat UI
+                </li>
+                <li>
+                  Integrated Redux to efficiently manage and modularize user data and messages state
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--project 3-->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 profile-image">
+            <img src="zeus2.0.png" alt="project image">
+          </div>
+          <div class="col-md-6 profile-text">
+              <h3> <strong>Zeus Reviews</strong>
+                <a href="https://github.com/team-artemis-hrr19/Zeus-HatersGonaHate" target="_blank" class="btn btn-default">Repo link</a>
+                <a href="http://138.197.5.236:3000" target="_blank" class="btn btn-default">Website link</a>
+              </h3>
+              <p>A social oriented movie and tv review web application.</p>
+              <h4>Contributions:</h4>
+              <ul>
+                <li>
+                 Utilized AngularJS and MongoDB to build an aggregate rating system that allows users to make an informed decision at a single glance
+                </li>
+                <li>
+                  Employed external movie database APIs to consolidate popular opinion giving users a centralized and diverse source to gauge content quality
+                </li>
+                <li>
+                  Used CSS3 and AngularJS animations to build a welcoming UI
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--project 4-->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 profile-image">
+            <img src="periodicTable.png" alt="project image">
+          </div>
+          <div class="col-md-6 profile-text">
+              <h3> Dynamic Periodic Table
+                <a href="https://github.com/dabisrat/Periodic-Table-" target="_blank" class="btn btn-default">Repo link</a>
+                <a href="https://mvpperiodictable.herokuapp.com/" target="_blank" class="btn btn-default">Website link</a>
+              </h3>
+              <p> A Periodic Table with access to Wikipedia’s API  </p>
+              <h4>Contributions:</h4>
+              <ul>
+                <li>
+                  Utilized AngularJS and CSS to create a responsive UI that provides in-depth data about the user selected element via Wikipedia’s API.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Portfolio End-->
+      <hr id="Resume">
+      <!--Resume Start-->
+       <section>
+        <div class="container-fluid">
+          <h1>Experience</h1>
+          <div class="row">
+            <div class="col-md-12 experience-container">
+            <h3>Theragenics Corporation </h3>
+              <h4>Radiochemist technician</h4>
+              <ul>
+                <li>
+                  Implemented a Java application to automate copying, renaming, and transferring quality
+                  assurance data from a source destination to a storage destination
+                </li>
+                <li>
+                  Produced over 90% product yields generating thousands of dollars in extra revenue
+                </li>
+                <li>
+                  Performed electrochemical experiments that prevented thousands of dollars in wasted product
+                </li>
+              </ul>
+            </div> 
+          </div>
+        </div>
+      </section>
+
+      <!--Resume End-->
+      <hr>
+      <!--Education start-->
+      <section id="Experience">
+        <div class="container-fluid">
+          <h1>Education</h1>
+          <div class="row">
+            <div class="col-md-12 experience-container">
+            <h3>Hack Reactor </h3>
+            <h4>ADVANCED SOFTWARE ENGINEERING IMMERSIVE</h4>
+              <ul>
+               <li>12-week full-stack development program with over 800 hours of instruction, projects, and hands-on work</li>
+              </ul>
+            <h3>Georgia Tech </h3>
+            <h4>B.S. in BIOCHEMISTRY</h4>
+              <ul>
+               <li>GPA: 3.4</li>
+               <li>Honors: Graduated with High Honors</li>
+              </ul>
+            </div> 
+          </div>
+        </div>
+      </section>
+    
+      <hr>
+      <!--Education end-->
+      <!--Contact Start-->
+      
+ <section id="Contact">
+        <div class="container-fluid">
+          <h1>Contact</h1>
+          <div class="row">
+            <div class="col-md-12">
+              <ul>
+               <li>Located: Atlanta, Georgia</li>
+               <li>Email: dabisrat@gmail.com</li>
+               <li>Phone: (770) 939-9219</li>
+              </ul>
+            </div> 
+          </div>
+        </div>
+      </section>
+      <!--Contact End-->
+      <!--footer start-->
+       <div class="social-media-container footer">  
+              <ul>
+                <li><a href="https://www.linkedin.com/in/david-bisrat/" target="_blank" rel="external"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+                <li><a href="https://github.com/dabisrat" target="_blank" rel="external"><i class="fa fa-github fa-2x"></i></a></li>
+                <li><a href="https://www.twitch.tv/dabisrat" target="_blank" rel="external"><i class="fa fa-twitch fa-2x"></i></a></li>
+              </ul>
+            </div>   <!-- end Social media container-->
+      <!--footer end-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
